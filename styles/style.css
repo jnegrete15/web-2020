@@ -1,0 +1,203 @@
+html {
+    /*Reset para Rems - 62.5% = 10px DE 160px*/
+    font-size: 62.5%;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.parallax1 {
+    display: flex;
+    /* The image used */
+    background-image: url("../assets/3.jpg");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* The progress container (grey background) */
+
+.progress-container {
+    position: fixed;
+    width: 100%;
+    height: .5rem;
+    background: black;
+}
+
+
+/* The progress bar (scroll indicator) */
+
+.progress-bar {
+    height: .5rem;
+    background: rgb(255, 255, 255);
+    width: 0%;
+}
+
+
+/*GLOBALES*/
+
+.white {
+    color: #fff;
+}
+
+.b-black {
+    background-color: black;
+}
+
+.m-0 {
+    margin: 0%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*HEADER*/
+
+header {
+    background-color: black;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 5rem;
+    padding: 2rem 0;
+}
+
+.items-header a {
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+
+.rojo:hover {
+    color: rgb(255, 0, 0);
+}
+
+.amarillo:hover {
+    color: yellow;
+}
+
+.cian:hover {
+    color: aqua;
+}
+
+.morado:hover {
+    color: rgb(252, 0, 252);
+}
+
+.jumbotron {
+    display: flex;
+    align-items: flex-start;
+}
+
+.jumbotron-texto {
+    display: flex;
+    margin: 0 0 0 20rem;
+    flex-direction: column;
+}
+
+.jumbotron-texto p {
+    font-size: 4rem;
+    max-width: 55rem;
+    line-height: 5rem;
+    margin-bottom: 0;
+}
+
+span {
+    font-size: 2rem;
+    text-align: end;
+    margin-bottom: 5rem;
+}
+
+.container-main {
+    width: 80%;
+    margin: 4rem auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.item-2 {
+    align-self: center;
+}
+
+.item-3 {
+    align-self: flex-start;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10%;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    max-width: 30rem;
+    height: max-content;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.card-content p {
+    line-height: 2.5rem;
+    text-align: justify;
+    margin: 0 0 1rem 0;
+}
+
+.card-content h2 {
+    font-size: 2rem;
+}
+
+.card img {
+    max-width: 50%;
+    max-height: 50%;
+    margin: 0 auto;
+    border-radius: 10%;
+}
+
+.card img:hover {
+    -webkit-transform: rotateY(180deg);
+    transition-duration: 1s;
+}
+
+.nav-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 0;
+}
+
+.nav-footer p {
+    font-size: 1.5rem;
+    margin: 0;
+}
