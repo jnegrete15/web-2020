@@ -120,17 +120,18 @@ h1 {
     display: flex;
     margin: 0 0 0 20rem;
     flex-direction: column;
+    font-family: 'Dancing Script', cursive;
 }
 
 .jumbotron-texto p {
-    font-size: 4rem;
+    font-size: 5rem;
     max-width: 55rem;
     line-height: 5rem;
     margin-bottom: 0;
 }
 
 span {
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: end;
     margin-bottom: 5rem;
 }
